@@ -36,7 +36,7 @@ agent = create_agent(llm, tools)
 
 def main():
     print("Hello from ai-search-agent!")
-    result = agent.invoke({"messages": [HumanMessage(content="What is Fresh Production Application in Walmart?")]})
+    result = agent.invoke({"messages": [HumanMessage(content="What is the temperature in New York?")]})
     pprint(result)
 
 
